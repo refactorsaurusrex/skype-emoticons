@@ -1,2 +1,18 @@
 # skype-emoticons
 The complete set of Skype emoticons, ready for upload to Slack!
+
+# What is this?
+
+I used to be an avid user of Skype, back in the days before Slack, Signal, WhatsApp, and all the rest. These new platforms all blow Skype away in every regard except for one: **the emoticons!**
+
+No emoticon expresses worry better than ![worry](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/worry_40x40.gif). Really, how could that possibly be improved upon? It's cute, it's adorable, and it looks *really* worried! The same is true for when I'm feeling ![angry](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/angry_40x40.gif), or ![confounded](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/wtf_40x40.gif), or am just plain ![laughing](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/cryingwhilelaughing_anim.gif) out loud. Yes, these emoticons truly are the best. Staring at them all makes me feel simply ![peaceful](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/dream_40x40.gif).
+
+If I could, I'd bulk import [all 600 of these emoticons](https://support.skype.com/en/faq/FA12330/what-is-the-full-list-of-emoticons) into Slack even though I probably use less than 50 on a regular basis. Unfortunately, Slack has no such functionality. Not only do you have to import custom emoticon one at a time, you *must* upload them from your computer. That's right - it's not currently possible to add one from a web URL. At least, I couldn't find a way. If someone wants to clue me in, I'll just ![cry](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/loudlycrying_40x40.gif) a little bit for wasting a few hours of my precious time on this. Don't worry, I'll get over it. ![it's cool](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/happyface_40x40.gif) Anyway, if you want to add a Skype emoticon, you have to first download it to your computer, then upload it to Slack. It's kind of a pain. I thought it would be much easier to have _all_ Skype's emoticons downloaded to my computer so that I could upload which ever one reflected my current emotional state most accurately. Then I thought it'd be _even cooler_ to have a little cheat sheet that displayed all the emoticons in one place and let me copy the local file path in a single click. 
+
+# I know what you're thinking.
+
+You *also* have pined for the Skype emoticons, haven't you?! Well, you are in luck, fellow nerd. In just three easy steps, you too can possess this giant pot of emotional expressions.
+
+1. Clone this repo. 
+2. Run [GenerateIndex.ps1](https://github.com/refactorsaurusrex/skype-emoticons/blob/master/GenerateIndex.ps1). Yes, this requires [PowerShell](https://github.com/PowerShell/PowerShell/releases/latest). Don't fret - PowerShell is cross platform now. And I don't want to hear any whiny ass anti-PowerShell complaints here. ![pissy](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/angryface_40x40.gif). PowerShell is awesome, and that's all there is to it. 
+3. Like magic, an `index.html` will be built JUST FOR YOU! Run it in your browser, find an emoticon you like, and click it. The full path to the image's location on disk will be copied to your computer for easy uploading to Slack. ![party time](https://raw.githubusercontent.com/refactorsaurusrex/skype-emoticons/master/emoticons/party_40x40.gif)
