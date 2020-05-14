@@ -39,8 +39,9 @@ $files = Get-ChildItem -Path "$PSScriptRoot\emoticons" -Filter "*.gif" | Select-
 
 foreach ($file in $files) {
   $name = Split-Path $file -Leaf
+  $baseName = Split-Path $file -LeafBase
   $escapedPath = $file.Replace('\', '\\')
-  $img = "    <div class='box'><img id='$name' src='emoticons/$name' onclick=`"CopyPath('$escapedPath', '$name')`"></div>`r`n"
+  $img = "    <div class='box'><img title='$baseName' id='$name' src='emoticons/$name' onclick=`"CopyPath('$escapedPath', '$name')`"></div>`r`n"
   $index += $img
 }
 
